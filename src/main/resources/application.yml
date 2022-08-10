@@ -10,10 +10,13 @@ spring:
       username: root
       password: hsp
   redis:
-    host: 你的host
+    host: 192.168.11.128
     port: 6379
     password:
     database: 0
+  cache:
+    redis:
+      time-to-live: 1800000 #设置缓存数据的过期时间为30min
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
@@ -26,7 +29,7 @@ reggie:
   path: E:\img\
 #腾讯云短信服务
 Tencent:
-  appid: 你的appid
-  appkey: 你的appkey
-  templateId: 你的templateId
-  smsSign: 你的smsSign
+  appid: 1400718155
+  appkey: 0bfc0f8eac99bd68c6c115136e2046f3
+  templateId: 1499464
+  smsSign: 多淼的生活日志
