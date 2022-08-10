@@ -10,7 +10,7 @@ spring:
       username: root
       password: hsp
   redis:
-    host: 192.168.11.128
+    host: 你的host
     port: 6379
     password:
     database: 0
@@ -29,7 +29,7 @@ reggie:
   path: E:\img\
 #腾讯云短信服务
 Tencent:
-  appid: 1400718155
-  appkey: 0bfc0f8eac99bd68c6c115136e2046f3
-  templateId: 1499464
-  smsSign: 多淼的生活日志
+  appid: 你的appid
+  appkey: 你的appkey
+  templateId: 你的templateId
+  smsSign: 你的smsSign
